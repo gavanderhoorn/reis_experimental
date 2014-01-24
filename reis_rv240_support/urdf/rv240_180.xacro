@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+
+<robot name="reis_rv240_180" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:include filename="$(find reis_rv240_support)/urdf/rv240_180_macro.xacro"/>
+	<xacro:reis_rv240_180 prefix=""/>
+</robot>

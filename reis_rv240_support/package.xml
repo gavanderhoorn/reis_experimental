@@ -1,0 +1,45 @@
+<package>
+  <name>reis_rv240_support</name>
+  <version>0.1.0</version>
+  <description>
+    <p>
+      ROS Industrial support for the Reis RV240 (and variants).
+    </p>
+    <p>
+      This package contains configuration data, 3D models and launch files
+      for Reis RV240 manipulators. This currently includes the -180.
+    </p>
+    <p><b>Specifications</b>:</p>
+    <ul>
+      <li>RV240-180 - "Unknown - unverified"</li>
+    </ul>
+    <p>
+      Joint limits and maximum joint velocities are based on the information in
+      the <em>Reis Robotics RV240-240, RV240-180 Data Sheet</em> version
+      <em>5127230 / 07-02-01</em>. All urdfs are based on the default motion
+      and joint velocity limits, unless noted otherwise (ie: no support for
+      high speed joints, extended / limited motion ranges or other options).
+    </p>
+    <p>
+      Before using any of the configuration files and / or meshes included
+      in this package, be sure to check they are correct for the particular
+      robot model and configuration you intend to use them with.
+    </p>
+  </description>
+  <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>
+  <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
+  <license>TODO</license>
+
+  <url type="website">http://ros.org/wiki/reis_rv240_support</url>
+  <url type="bugtracker">https://github.com/gavanderhoorn/reis_experimental/issues</url>
+  <url type="repository">https://github.com/gavanderhoorn/reis_experimental</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>reis_assets</run_depend>
+  <run_depend>reis_driver</run_depend>
+
+  <export>
+    <architecture_independent />
+  </export>
+</package>

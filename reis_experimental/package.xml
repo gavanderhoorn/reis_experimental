@@ -14,6 +14,7 @@
 
   <run_depend>reis_assets</run_depend>
   <run_depend>reis_driver</run_depend>
+  <run_depend>reis_rv240_support</run_depend>
 
   <export>
     <metapackage/>
