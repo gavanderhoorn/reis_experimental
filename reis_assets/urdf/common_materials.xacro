@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:include filename="$(find reis_assets)/urdf/common_colours.xacro"/>
+
+	<xacro:macro name="material_reis_red">
+		<material name="">
+			<color rgba="${color_reis_red}"/>
+		</material>
+	</xacro:macro>
+
+	<xacro:macro name="material_reis_black">
+		<material name="">
+			<color rgba="${color_reis_black}"/>
+		</material>
+	</xacro:macro>
+
+</robot>

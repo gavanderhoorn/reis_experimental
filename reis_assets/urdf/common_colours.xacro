@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+	<!-- RAL ? -->
+	<xacro:property name="color_reis_black" value="0.059 0.11  0.17  1.0" />
+	<!-- RAL ? -->
+	<xacro:property name="color_reis_red"   value="0.74  0.016 0.016 1.0" />
+
+</robot>

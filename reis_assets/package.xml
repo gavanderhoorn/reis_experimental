@@ -1,0 +1,31 @@
+<package>
+  <name>reis_assets</name>
+  <version>0.1.0</version>
+  <description>
+    <p>
+      Shared configuration data, 3D models and launch files for Reis
+      manipulators.
+    </p>
+    <p>
+      This package contains configuration data, 3D models and launch files 
+      that are shared between different Reis robot support packages 
+      within the ROS Industrial program.
+
+      This package also contains common urdf and xacro resources used by 
+      other Reis related packages.
+    </p>
+  </description>
+  <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>
+  <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
+  <license>TODO</license>
+
+  <url type="website">http://ros.org/wiki/reis_assets</url>
+  <url type="bugtracker">https://github.com/gavanderhoorn/reis_experimental/issues</url>
+  <url type="repository">https://github.com/gavanderhoorn/reis_experimental</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <architecture_independent />
+  </export>
+</package>
