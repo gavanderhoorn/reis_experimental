@@ -38,6 +38,10 @@
 
   <run_depend>reis_driver</run_depend>
   <run_depend>reis_resources</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>xacro</run_depend>
 
   <export>
     <architecture_independent />
