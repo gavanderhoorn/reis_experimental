@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-	<xacro:include filename="$(find reis_assets)/urdf/common_materials.xacro"/>
+	<xacro:include filename="$(find reis_resources)/urdf/common_materials.xacro"/>
 
 	<xacro:macro name="reis_rv240_180" params="prefix">
 		<link name="${prefix}base_link">
