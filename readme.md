@@ -12,5 +12,5 @@ APIs are to be considered unstable and are not guaranteed to be complete
 and / or functional.
 
 
-[ROS-Industrial]: http://www.ros.org/wiki/Industrial
-[ROS wiki]: http://www.ros.org/wiki/reis_experimental
+[ROS-Industrial]: http://wiki.ros.org/Industrial
+[ROS wiki]: http://wiki.ros.org/reis_experimental
